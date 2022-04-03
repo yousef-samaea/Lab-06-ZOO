@@ -29,17 +29,11 @@ namespace Zoo
             Console.WriteLine("yes it dose have a tail");
         }
 
-        public override void SetDiscrobeTheTast(string taist)
+        public override void DiscrobeTheTast()
         {
-            this.DiscrobeTheTast = taist;
-
+            Console.WriteLine("mmm it dose tast raly gooood!!!");
         }
 
-        public override string GetDiscrobeTheTasts()
-        {
-            return this.DiscrobeTheTast;
-        }
 
-  
     }
 }

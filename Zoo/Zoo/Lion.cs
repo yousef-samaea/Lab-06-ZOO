@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Zoo
 {
-    class Lion : Mammals, Strong
+    class Lion : Mammals, IStrong
     {
 
         public override void Eat()
@@ -29,22 +29,11 @@ namespace Zoo
             Console.WriteLine("yes it dose have a tail");
         }
 
-
-        public abstract class Isdangerous
+        public void IsStrong()
         {
-            public abstract void Dangerous();
-
-
-            public class Lion : Isdangerous
-            {
-                public override void Dangerous()
-                {
-                    Console.WriteLine("yes its dangaras");
-                }
-            }
-
-
+            Console.WriteLine("lion is the king of the savana");
         }
+
 
 
     }

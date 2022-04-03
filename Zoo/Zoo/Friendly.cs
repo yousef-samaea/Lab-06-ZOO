@@ -6,12 +6,10 @@ using System.Threading.Tasks;
 
 namespace Zoo
 {
-    abstract class Fishs : Inocean
+    interface IFriendly
     {
-        public virtual void DiscrobeTheTast()
-        {
-            Console.WriteLine("good"); 
-        }
+        void IsFriendly();
+
 
 
     }
