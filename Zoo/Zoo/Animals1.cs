@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Zoo
 {
-    abstract class Animals1
+    public abstract class Animals1
     {
         public abstract void Eat();
 

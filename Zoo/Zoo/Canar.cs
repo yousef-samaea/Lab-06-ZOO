@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Zoo
 {
-    class Canar : Birds
+     class Canar : Birds
     {
         public override void Eat()
         {

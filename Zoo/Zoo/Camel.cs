@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Zoo
 {
-    class Camel : Mammals
+    class Camel : Mammals, IFriendly
     {
 
         public override void Eat()
@@ -29,6 +29,15 @@ namespace Zoo
             Console.WriteLine("yes it dose have a tail");
         }
 
+        public override void EndureThirst()
+        {
+            Console.WriteLine("its can EndureThirst for along lime");
+        }
+
+        //public void IsFriendly()
+        //{
+        //    Console.WriteLine("camel is my best frind");
+        //}
 
     }
 }
