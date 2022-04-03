@@ -32,7 +32,7 @@ namespace Zoo
 
             Lion l = new();
             string v;
-            Lion.Isdangerous();
+            //Lion.Isdangerous();
 
 
         }
