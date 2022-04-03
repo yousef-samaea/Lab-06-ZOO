@@ -30,16 +30,16 @@ namespace Zoo
         }
 
 
-        public abstract class Isdangerous // abstraction
+        public abstract class Isdangerous
         {
             public abstract void Dangerous();
 
 
-            public class Lion : Isdangerous // class eagle child inhert form preybirds parent
+            public class Lion : Isdangerous
             {
                 public override void Dangerous()
                 {
-                    Console.WriteLine("eagle have sharpen eyes");
+                    Console.WriteLine("yes its dangaras");
                 }
             }
 
