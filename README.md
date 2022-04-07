@@ -5,7 +5,7 @@ this app use to show some of those animals
 
 ## solution:
 
-![image](/Zoo.png)
+![image](/zoo.png)
 
 
 ## tests:
