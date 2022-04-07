@@ -6,32 +6,42 @@ using System.Threading.Tasks;
 
 namespace Zoo
 {
-    class Tuna : Fishs
+    public class Tuna : Fishs
     {
 
-        public override void Eat()
+        public override string Eat()
         {
-            Console.WriteLine("athor fishs its favorit food");
+            //Console.WriteLine("athor fishs its favorit food");
+            string a = "athor fishs its favorit food";
+            return a;
         }
 
-        public override void Sleep()
+        public override string Sleep()
         {
-            Console.WriteLine("not alot");
+            //Console.WriteLine("not alot");
+            string a = "not alot";
+            return a;
         }
 
-        public override void Sound()
+        public override string Sound()
         {
-            Console.WriteLine("bok bok bok");
+            //Console.WriteLine("bok bok bok");
+            string a = "bok bok bok";
+            return a;
         }
 
-        public override void Tail()
+        public override string Tail()
         {
-            Console.WriteLine("yes it dose have a tail");
+           // Console.WriteLine("yes it dose have a tail");
+            string a = "yes it dose have a tail";
+            return a;
         }
 
-        public override void DiscrobeTheTast()
+        public override string DiscrobeTheTast()
         {
-            Console.WriteLine("mmm it dose tast raly gooood!!!");
+            //Console.WriteLine("mmm it dose tast raly gooood!!!");
+            string a = "mmm it dose tast raly gooood!!!";
+            return a;
         }
 
 

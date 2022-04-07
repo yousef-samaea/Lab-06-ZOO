@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Zoo
 {
-    interface IStrong
+    public interface IStrong
     {
-        void IsStrong();
+        string IsStrong();
 
         
        

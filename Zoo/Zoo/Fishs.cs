@@ -6,11 +6,13 @@ using System.Threading.Tasks;
 
 namespace Zoo
 {
-    abstract class Fishs : Inocean
+    public abstract class Fishs : Inocean
     {
-        public virtual void DiscrobeTheTast()
+        public virtual string DiscrobeTheTast()
         {
-            Console.WriteLine("good"); 
+            //Console.WriteLine("good"); 
+            string a = "good";
+            return a;
         }
 
 

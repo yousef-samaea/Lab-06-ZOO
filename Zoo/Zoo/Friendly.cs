@@ -8,7 +8,7 @@ namespace Zoo
 {
     interface IFriendly
     {
-        void IsFriendly();
+        string IsFriendly();
 
 
 

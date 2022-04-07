@@ -6,21 +6,27 @@ using System.Threading.Tasks;
 
 namespace Zoo
 {
-    abstract class Mammals : Onland, IFriendly, IStrong
+    public abstract class Mammals : Onland, IFriendly, IStrong
     {
-        public virtual void EndureThirst()
+        public virtual string EndureThirst()
         {
-            Console.WriteLine("MABY");
+            //Console.WriteLine("MABY");
+            string a = "MABY";
+            return a;
         }
 
-        public void IsFriendly()
+        public string IsFriendly()
         {
             Console.WriteLine("camel is my best frind");
+            string a = "camel is my best frind";
+            return a;
         }
 
-        public void IsStrong()
+        public string IsStrong()
         {
-            Console.WriteLine("camels is a strong survival animls");
+            // Console.WriteLine("camels is a strong survival animls");
+            string a = "camels is a strong survival animls";
+            return a;
         }
 
 

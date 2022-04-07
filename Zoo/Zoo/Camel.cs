@@ -6,33 +6,44 @@ using System.Threading.Tasks;
 
 namespace Zoo
 {
-    class Camel : Mammals, IFriendly
+    public class Camel : Mammals, IFriendly
     {
 
-        public override void Eat()
+        public override string Eat()
         {
-            Console.WriteLine("cactes its favorit food");
+            //Console.WriteLine("cactes its favorit food");
+            string a = "cactes its favorit food";
+            return a;
         }
 
-        public override void Sleep()
+        public override string Sleep()
         {
-            Console.WriteLine("of course");
+            //Console.WriteLine("of course");
+            string a = "of course";
+            return a;
         }
 
-        public override void Sound()
+        public override string Sound()
         {
-            Console.WriteLine("aaaaa");
+            //Console.WriteLine("aaaaa");
+            string a = "aaaaa";
+            return a;
         }
 
-        public override void Tail()
+        public override string Tail()
         {
-            Console.WriteLine("yes it dose have a tail");
+            //Console.WriteLine("yes it dose have a tail");
+            string a = "yes it dose have a tail";
+            return a;
         }
 
-        public override void EndureThirst()
+        public override string EndureThirst()
         {
             Console.WriteLine("its can EndureThirst for along lime");
+            string a = "its can EndureThirst for along lime";
+            return a;
         }
+
 
         //public void IsFriendly()
         //{

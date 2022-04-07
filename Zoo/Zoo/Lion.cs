@@ -6,32 +6,42 @@ using System.Threading.Tasks;
 
 namespace Zoo
 {
-    class Lion : Mammals, IStrong
+    public class Lion : Mammals, IStrong
     {
 
-        public override void Eat()
+        public override string Eat()
         {
-            Console.WriteLine("meet its favorit food");
+            //Console.WriteLine("meet its favorit food");
+            string a = "meet its favorit food";
+            return a;
         }
 
-        public override void Sleep()
+        public override string Sleep()
         {
-            Console.WriteLine("most of the day");
+            //Console.WriteLine("most of the day");
+            string a = "most of the day";
+            return a;
         }
 
-        public override void Sound()
+        public override string Sound()
         {
-            Console.WriteLine("waaaw");
+            //Console.WriteLine("waaaw");
+            string a = "waaaw";
+            return a;
         }
 
-        public override void Tail()
+        public override string Tail()
         {
-            Console.WriteLine("yes it dose have a tail");
+            //Console.WriteLine("yes it dose have a tail");
+            string a = "yes it dose have a tail";
+            return a;
         }
 
-        public void IsStrong()
+        public string IsStrong()
         {
-            Console.WriteLine("lion is the king of the savana");
+           // Console.WriteLine("lion is the king of the savana");
+            string a = "lion is the king of the savana";
+            return a;
         }
 
 

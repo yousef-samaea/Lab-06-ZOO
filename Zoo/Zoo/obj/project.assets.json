@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\youse\\Desktop\\programs\\Lab-06-ZOO\\Zoo\\Zoo\\Zoo.csproj",
+      "projectUniqueName": "C:\\Users\\youse\\Desktop\\lab06\\Lab-06-ZOO\\Zoo\\Zoo\\Zoo.csproj",
       "projectName": "Zoo",
-      "projectPath": "C:\\Users\\youse\\Desktop\\programs\\Lab-06-ZOO\\Zoo\\Zoo\\Zoo.csproj",
+      "projectPath": "C:\\Users\\youse\\Desktop\\lab06\\Lab-06-ZOO\\Zoo\\Zoo\\Zoo.csproj",
       "packagesPath": "C:\\Users\\youse\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\youse\\Desktop\\programs\\Lab-06-ZOO\\Zoo\\Zoo\\obj\\",
+      "outputPath": "C:\\Users\\youse\\Desktop\\lab06\\Lab-06-ZOO\\Zoo\\Zoo\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\youse\\AppData\\Roaming\\NuGet\\NuGet.Config",
