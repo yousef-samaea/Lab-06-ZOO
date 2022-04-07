@@ -6,26 +6,34 @@ using System.Threading.Tasks;
 
 namespace Zoo
 {
-     class Canar : Birds
+    public class Canar : Birds
     {
-        public override void Eat()
+        public override string Eat()
         {
-            Console.WriteLine("seeds its favorit food");
+            string a = "seeds its favorit food";
+            // Console.WriteLine("seeds its favorit food");
+            return a;
         }
 
-        public override void Sleep()
+        public override string Sleep()
         {
-            Console.WriteLine("of course");
+            //Console.WriteLine("of course");
+            string a = "of course";
+            return a;
         }
 
-        public override void Sound()
+        public override string Sound()
         {
-            Console.WriteLine("singing");
+            //Console.WriteLine("singing");
+            string a = "singing";
+            return a;
         }
 
-        public override void Tail()
+        public override string Tail()
         {
-            Console.WriteLine("yes it dose have a tail");
+            //Console.WriteLine("yes it dose have a tail");
+            string a = "it dose have a butefull tail";
+            return a;
         }
 
 

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Zoo
 {
-    abstract class Insky : Animals1
+    public abstract class Insky : Animals1
     {
 
         public Boolean Havefeather = true;

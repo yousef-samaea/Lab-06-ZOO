@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "i6XlDycTTzYO2TIsutEwSOfYzHC28b9ru7g+2CDbLgzkryGo9FoAXQb1YhlhYm9jpmbiT0MhJWX5a7jDkczAeg==",
+  "dgSpecHash": "F7nsZmoYiDg45U+ASzrPy8R5Xr3l4OkIWGfcVSHyjPX5m2dWRMNssrUYGRz7X7SiuKvVdHqWutZ1GkHeQT96WA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\youse\\Desktop\\programs\\Lab-06-ZOO\\Zoo\\TestProject1\\TestProject1.csproj",
+  "projectFilePath": "C:\\Users\\youse\\Desktop\\lab06\\Lab-06-ZOO\\Zoo\\TestProject1\\TestProject1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\youse\\.nuget\\packages\\coverlet.collector\\3.0.2\\coverlet.collector.3.0.2.nupkg.sha512",
     "C:\\Users\\youse\\.nuget\\packages\\microsoft.codecoverage\\16.9.4\\microsoft.codecoverage.16.9.4.nupkg.sha512",

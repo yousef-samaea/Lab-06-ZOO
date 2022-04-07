@@ -5,7 +5,12 @@ this app use to show some of those animals
 
 ## solution:
 
-![image](/zoo.png)
+![image](/Zoo.png)
+
+
+## tests:
+
+![image](/tests.png)
 
 
 ## inheretains and interfaces :

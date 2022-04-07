@@ -8,13 +8,13 @@ namespace Zoo
 {
     public abstract class Animals1
     {
-        public abstract void Eat();
+        public abstract string Eat();
 
-        public abstract void Sleep();
+        public abstract string Sleep();
 
-        public abstract void Sound();
+        public abstract string Sound();
 
-        public abstract void Tail();
+        public abstract string Tail();
 
     }
 }
